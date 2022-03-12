@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+
+#blog h2 {
+    font-family: 'Belleza', sans-serif;
+    color: #c3cfc0;
+    font-size: 40px;
+    text-align: center;
+}
+#blog p {
+    text-align: justify;
+    font-size: 18px;
+}
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#blog .contenedor1 {
+    width: 1000px;
+    margin: auto;
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (min-width:768px) {
+    #blog img {
+        justify-content: center;
+    }
+}
+

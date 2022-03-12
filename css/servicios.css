@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;1,200&display=swap');
+
+@media (min-width: 768px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .centrar-columnas {
+       justify-content: left;
+    }
+    .columnas-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+
+}
+#servicios img {
+    width: 100%;
+    max-width: 300px;
+}
+
+#servicios h2{
+    font-family: 'Belleza', sans-serif;
+    text-align: center;
+    color: #c3cfc0;
+    font-size: 40px;
+}
+#servicios p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#servicios .marginimg2 {
+    margin-top: 80px;
+}
+#servicios .marginimg3 {
+    margin-top: 5px;
+}
+#servicios .marginimg4 {
+    margin-top: 25px;
+}
